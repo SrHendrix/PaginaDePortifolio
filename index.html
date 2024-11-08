@@ -1,0 +1,191 @@
+<!DOCTYPE <!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portifólio Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- MENU DE NAVEGAÇÃO -->
+       <header>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+       </header>
+
+       <!-- SEÇÃO DE INICIO -->
+       <section id="inicio">
+            <div class="presentation">
+                <h2>Olá, eu sou o <span>Guilherme</span></h2>
+                <div class="title-with-icon">
+                    <h1>Desenvolvedor</h1>
+                </div>
+                <div class="title-with-icon">
+                    <h1>Full Stack</h1>
+                    <img src="img/github.png" alt="GitHub">
+                    <img src="img/linkedin.png" alt="LinkedIn">
+                </div>
+                <p>Tenho 19 anos, sou desenvolvedor web, programador de jogos e QA tester</p>
+            </div>
+       </section>
+
+        <!-- SEÇÃO DE EXPERIÊNCIAS -->
+        <section id="experiencia">
+            <h2 class="section-title">Experiência</h2>
+            <div class="experience-container">
+                 <div class="experience">
+                    <h3>Desenvolvedor Full Stack - Freelancer</h3>
+                    <p class="experience-period">Maio 2024 - Atual</p>
+                    <p>Desenvolvi aplicações WEB e ministrei aulas e consultorias utilizando tecnologias como HTML, CSS, JS, Banco de Dados SQL, NodeJS, etc..</p>
+                </div>
+                <div class="experience">
+                    <h3>Professor de Tecnologia - Grupo Encontrar</h3>
+                    <p class="experience-period">Janeiro 2024 - Atual</p>
+                    <p>Fiz parte de uma Terapia Alternativa que busca desenvolver os pacientes por meio da tecnologia, voltada para crianças e adolescentes com TEA</p>
+                </div>
+                <div class="experience">
+                    <h3>Professor de Programação - HappyCode</h3>
+                    <p class="experience-period">Junho 2023 - Janeiro 2024</p>
+                    <p>Ministrava aulas de Desenvolvimento de Jogos 2D e 3D, Programação em Python, Robótica e Produção de Conteúdo</p>
+                </div>
+            </div>
+        </section>
+       
+
+       <!-- SEÇÃO DE HABILIDADES -->
+       <section id="habilidades">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills">
+                <div class="skill">
+                    <div class="skill-icon"><img src="img/python.png" alt="Python"></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-icon"><img src="img/selenium.svg" alt="Selenium"></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-icon"><img src="img/js.png" alt="JavaScript"></div>
+                </div>
+            </div>
+       </section>
+
+       <!-- SEÇÃO DE PROJETOS -->
+        <section id="projetos" class="projects-section">
+            <h2 class="section-title">Projetos</h2>
+            <div class="tabs">
+                <button class="tablinks" onclick="openTab('projeto 1')">Calculadora Personalizada</button>
+                <button class="tablinks" onclick="openTab('projeto 2')">Formulário de Cadastro</button>
+                <button class="tablinks" onclick="openTab('projeto 3')">Churrascômetro</button>
+            </div>
+
+            <div id="projeto 1" class="tabcontent show">
+                <div class="project-container">
+                    <div class="project-info">
+                        <h3>Bimo Calculadora</h3>
+                        <p>
+                            Uma calculadora tematizada do personagem Bimo de Hora de Aventura. 
+                            Realize suas operações matemáticas usando essa calculadora totalmente divertida!
+                        </p>
+                        <button class="ver-mais">Ver Mais</button>
+                    </div>
+                    <div class="project-video">
+                        <video width="400" controls>
+                            <source src="videos/calculadora.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <div id="projeto 2" class="tabcontent">
+                <div class="project-container">
+                    <div class="project-info">
+                        <h3>Página de Cadastro</h3>
+                        <p>Um Formulário de Cadastro Funcional, com validações e opções de Login e Criar Nova Conta
+                        </p>
+                        <button class="ver-mais">Ver Mais</button>
+                    </div>
+                    <div class="project-video">
+                        <video width="400" controls>
+                            <source src="videos/pagina_de_cadastro.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <div id="projeto 3" class="tabcontent">
+                <div class="project-container">
+                    <div class="project-info">
+                        <h3>Churrascômetro</h3>
+                        <p>
+                            A Fórmula Mágica do Churrasco na sua mão! Descubra o que você precisa pra fazer o churrasco perfeito.
+                        </p>
+                        <button class="ver-mais">Ver Mais</button>
+                    </div>
+                    <div class="project-video">
+                        <video width="400" controls>
+                            <source src="videos/churrascômetro.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO DE SERVIÇOS -->
+         <section id="servicos">
+            <h2 class="section-title">Meus Cursos</h2>
+            <div class="service-container">
+                <div class="service">
+                    <h3>Desenvolvedor Front-End</h3>
+                    <p>Criação de Interfaces Intuitivas e Responsivas com as Melhores Tecnologias do Mercado</p>
+                    <button class="service-button">Saiba Mais</button>
+                </div>
+                <div class="service">
+                    <h3>Jogos 2D</h3>
+                    <p>Criação de Jogos 2D usando a Unity</p>
+                    <button class="service-button">Saiba Mais</button>
+                </div>
+                <div class="service">
+                    <h3>Desenvolvedor Python</h3>
+                    <p>Desenvolvimento de Scripts e Aplicações em Python, com foco em automação de testes, interfaces gráficas e análise de dados</p>
+                    <button class="service-button">Saiba Mais</button>
+                </div>
+            </div>
+         </section>
+
+        <!-- SEÇÃO DE CONTATO -->
+         <section id="contato">
+            <h2 class="section-title">Contato</h2>
+            <div class="contact-container">
+                <div class="contact-image">
+                    <img src="img/perfil.png" alt="">
+                </div>
+                <div class="contact-form">
+                    <h3>Entre em Contato Comigo!</h3>
+                    <form action="">
+                        <textarea id="mensagem" name="mensagem" placeholder="Deseja contatar meus serviçoes?" rows="4" required></textarea>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+         </section>
+
+        <!-- RODAPÉ -->
+         <footer>
+            <p>&copy; 2024 Guilherme. Todos os direitos reservados.</p>
+            <div class="links">
+                <img src="img/github.png" alt="GitHub">
+                <img src="img/linkedin.png" alt="LinkedIn">
+            </div>
+         </footer>
+        
+        <script src="js/script.js" async defer></script>
+    </body>
+</html>
